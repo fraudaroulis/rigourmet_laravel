@@ -14,6 +14,6 @@ class PagesController extends Controller
      */
     public function getLandingPage()
     {
-        return view('homepage');
+        return view('landingPage');
     }
 }
