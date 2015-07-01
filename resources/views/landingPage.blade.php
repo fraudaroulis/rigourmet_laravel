@@ -1,66 +1,93 @@
-@extends('site.layouts.default')
+@extends('layouts.master')
 
-@section('navigation')
-    @if (Auth::check())
+@section('head_scripts')
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    @else
-        @if (View::exists('site.homepage.description'))
-            <li>
-                <a class="page-scroll" href="#description">description</a>
-            </li>
-        @endif
-        @if (View::exists('site.homepage.join'))
-            <li>
-                <a class="page-scroll" href="#join">join</a>
-            </li>
-        @endif
-    @endif
+        ga('create', 'UA-58122075-1', 'auto');
+        ga('send', 'pageview');
 
-    @if (View::exists('site.homepage.contact'))
-        <li>
-            <a class="page-scroll" href="#contact">contact</a>
-        </li>
-    @endif
-@stop
-
-@section('header')
-    <div class="intro-box ">
-        <div class="intro-logo">
-            {{ HTML::image('img/logo_md.png', '', array('class' => 'img-responsive')) }}
-        </div>
-        <div class="intro-text">
-            <div class="intro-lead-in">
-                Eat Locally. Meet Globally.
-            </div>
-            <div class="intro-heading">
-                rigourmet
-            </div>
-            @if (!Auth::check())
-                <div class="intro-heading">
-                    <a href="#join" class="page-scroll btn btn-primary" role="button">Join Us</a>
-                    <p>Already a member?</p>
-                    <a href="{{{ URL::to('user/login') }}}" class="join-link btn btn-primary" role="button">Log In</a>
-                </div>
-
-            @endif
-        </div>
-    </div>
-@stop
+    </script>
+@endsection
 
 @section('content')
-    @if (View::exists('site.homepage.description'))
-        @include('site.homepage.description')
-    @endif
+    <!-- Top content -->
+    <div id="home" class="parallax top-content" data-stellar-background-ratio="0.3">
+        <div class="inner-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+                        <h2>Rigourmet</h2>
+                        <h3>be a professional, not just a cook</h3>
+                        <div class="description">
+                        </div>
+                        <div class="top-button">
+                            <a class="btn btn-top btn-lg" href="#features-section"> Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="hero">
+                <video autoplay muted loop id="pretzel-video" class="video-playing">
+                    <source src="assets/header_vid.mp4" type="video/mp4">
+                    <source src="assets/header_vid.webm" type="video/webm">
+                </video>
+            </div>
+        </div>
+    </div>
 
-    @if (View::exists('site.homepage.join'))
-        @include('site.homepage.join')
-    @endif
+    @include('features')
 
-    @if (View::exists('site.homepage.extra'))
-        @include('site.homepage.extra')
-    @endif
+    {{--@include('product')--}}
 
-    @if (View::exists('site.homepage.contact'))
-        @include('site.homepage.contact')
-    @endif
-@stop
+    @include('subscription')
+
+    {{--@include('team')--}}
+
+    {{--@include('testimonials')--}}
+
+    @include('contact')
+
+    @section('footer')
+        <!-- footer -->
+        <div id="footer" class="follow">
+            <h3>Follow Us</h3>
+            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse suscipit tellus vitae tellus porta rutrum. Aliquam imperdiet nulla id scelerisque auctor.</p>
+            <div class="follow-us">
+                <a href="#" class="social-icon">
+                    <div>
+                        <i class="fa fa-facebook"></i>
+                    </div>
+                </a>
+                <a href="#" class="social-icon">
+                    <div>
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <div>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <div>
+                        <i class="fa fa-pinterest"></i>
+                    </div>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <div>
+                        <i class="fa fa-google-plus"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        @parent
+    @stop
+@endsection

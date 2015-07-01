@@ -1,0 +1,19 @@
+{
+  "name": "rigourmet_landingPage",
+  "version": "0.0.0",
+  "authors": [
+    "George Pilpilidis <fraudaroulis@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.5",
+    "fontawesome": "~4.3.0"
+  }
+}

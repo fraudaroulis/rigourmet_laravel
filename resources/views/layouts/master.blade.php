@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Basic Page Needs
     ================================================== -->
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>
         @section('title')
-            Rigourmet | Eat locally. Meet Globally.
+            Rigourmet | be a professional, not just a cook
         @show
     </title>
     @section('meta_keywords')
@@ -17,158 +20,107 @@
     @show
     @section('meta_description')
         <meta name="description" content="Το Rigourmet είναι μια πλατφόρμα κοινωνικής δικτύωσης που ενώνει επαγγελματίες μάγειρες με λάτρεις του φαγητού για μια μοναδική εμπειρία." />
-        @show
-                <!-- Mobile Specific Metas
-		================================================== -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @show
 
-        <!-- CSS
-        ================================================== -->
-        <style>
-            body {
-                padding: 50px 0 0;
-            }
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        </style>
-        <link rel="stylesheet" href="{{ asset('assets/css/main/general.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/main/frontend.css') }}">
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/elegant-icons/css/elegant-icons.min.css">
+    <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="assets/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
+    <!--Colors-->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/red.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/colors/orange.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/green.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/lime.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/brown.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/blue.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/yellow.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/purple.css"> -->
 
-    @section('styles')
-        {{ HTML::style('http://fonts.googleapis.com/css?family=Montserrat:400,700') }}
-        {{ HTML::style('http://fonts.googleapis.com/css?family=Kaushan+Script') }}
-        {{ HTML::style('http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic') }}
-        {{ HTML::style('http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700') }}
-        @show
+    <!--Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
 
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-                <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+    @yield('head_scripts')
 
-        <!-- Favicons
-        ================================================== -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{{ asset('assets/ico/apple-touch-icon-144-precomposed.png') }}}">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{{ asset('assets/ico/apple-touch-icon-114-precomposed.png') }}}">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{{ asset('assets/ico/apple-touch-icon-72-precomposed.png') }}}">
-        <link rel="apple-touch-icon-precomposed" href="{{{ asset('assets/ico/apple-touch-icon-57-precomposed.png') }}}">
-        <link rel="shortcut icon" href="{{{ asset('assets/ico/favicon.png') }}}">
-
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-58122075-1', 'auto');
-            ga('send', 'pageview');
-
-        </script>
 </head>
 
-<body>
-<!-- To make sticky footer need to wrap in a div -->
-<div id="wrap">
-    <!-- Navbar -->
-    <div class="navbar navbar-default navbar-fixed-top">
+<body data-spy="scroll" data-offset="80">
+    <div class="navbar navbar-default navbar-fixed-top menu-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-
-                <a class="navbar-brand page-scroll" href="{{{ URL::to('') }}}">{{ HTML::image('img/logo_sm.png', '', array('class' => 'img-responsive')) }}</a>
+                <a class="navbar-brand" href="{{{ URL::to('') }}}">{!! HTML::image('assets/img/logo_sm.png', '', array('class' => 'img-responsive')) !!}</a>
             </div>
-            <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
-                <!-- <ul class="nav navbar-nav">
-						<li {{ (Request::is('/') ? ' class="active"' : '') }}><a href="{{{ URL::to('') }}}">Home</a></li>
-					</ul> -->
-
+            <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href=""></a>
-                    </li>
-                    @yield('navigation')
-                    @if (Auth::check())
-                        @if (Auth::user()->hasRole('admin'))
-                            <li><a href="{{{ URL::to('admin') }}}">Admin Panel</a></li>
-                        @endif
-                        <li><a href="{{{ URL::to('user') }}}">Logged in as {{{ Auth::user()->username }}}</a></li>
-                        <li><a href="{{{ URL::to('user/logout') }}}">Logout</a></li>
-                    @else
-                        <li {{ (Request::is('user/login') ? ' class="active"' : '') }}><a href="{{{ URL::to('user/login') }}}">Login</a></li>
-                        <li {{ (Request::is('user/create') ? ' class="active"' : '') }}><a href="{{{ URL::to('user/create') }}}">{{{ Lang::get('site.sign_up') }}}</a></li>
-                    @endif
-                </ul>
-                <!-- ./ nav-collapse -->
-            </div>
-        </div>
-    </div>
-    <!-- ./ navbar -->
-
-    <!-- Header -->
-    <header id="header">
-        <!-- Header Data -->
-        @yield('header')
-        <!-- ./ header -->
-    </header>
-    <!-- ./ header -->
-
-    <!-- Container -->
-    <div id="container">
-        <!-- Notifications -->
-        @include('notifications')
-        <!-- ./ notifications -->
-
-        <!-- Content -->
-        @yield('content')
-        <!-- ./ content -->
-    </div>
-    <!-- ./ container -->
-
-    <!-- the following div is needed to make a sticky footer -->
-    <div id="push"></div>
-</div>
-<!-- ./wrap -->
-
-
-<footer class="bg-light-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Rigourmet 2015</span>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-inline social-buttons">
-                    <li><a href="https://twitter.com/rigourmet"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li><a href="https://www.facebook.com/GourMetNextDoor"><i class="fa fa-facebook"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul class="list-inline quicklinks">
-                    <li><a href="">Privacy Policy</a>
-                    </li>
-                    <li><a href="">Terms of Use</a>
-                    </li>
+                    <li><a href="#features-section">features</a></li>
+                    <li><a href="#join">join</a></li>
+                    {{--<li><a href="#team-section">team</a></li>--}}
+                    <li><a href="#contact-section">contact</a></li>
+                    <li><a href="#footer">followUs</a></li>
                 </ul>
             </div>
         </div>
     </div>
-</footer>
 
-<!-- Javascripts
-================================================== -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script src="{{asset('assets/js/main/frontend.js')}}"></script>
-<script src="{{asset('assets/js/main/backend.js')}}"></script>
-<script src="{{asset('assets/js/jquery.backstretch.min.js')}}"></script>
+    @yield('content')
 
-@yield('scripts')
+    @section('footer')
+        <!-- footer 2 -->
+        <div id="footer2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="copyright">&copy;Rigourmet
+                            <script type="text/javascript">
+                                //<![CDATA[
+                                var d = new Date()
+                                document.write(d.getFullYear())
+                                //]]>
+                            </script>
+                            - <a href="">Terms of use</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    @show
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/retina-1.1.0.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.min.js"></script>
+    <script src="assets/js/jquery.stellar.min.js" type="text/javascript"></script>
+    <script src="assets/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
 </body>
+
 </html>
