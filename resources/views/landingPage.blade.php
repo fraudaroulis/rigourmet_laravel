@@ -32,8 +32,8 @@
                     </div>
                 </div>
             </div>
-            <div id="hero">
-                <video autoplay muted loop id="pretzel-video" class="video-playing">
+            <div class="hero">
+                <video autoplay muted class="video-playing pretzel-video">
                     <source src="assets/header_vid.mp4" type="video/mp4">
                     <source src="assets/header_vid.webm" type="video/webm">
                 </video>
