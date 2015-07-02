@@ -63,7 +63,7 @@ a, a:hover, a:focus {
     color: #f58b3c;
 }
 .inner-bg {
-    background-color: rgba(0, 0, 0, 0.2);
+    /*background-color: rgba(0, 0, 0, 0.2);*/
 }
 .inner-team {
     background-color: rgba(255, 128, 31, 0.6);
