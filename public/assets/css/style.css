@@ -1613,7 +1613,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 /***** Media queries *****/
-@media (max-width: 1360px) {
+@media (max-width: 1370px) {
     .inner-bg {
         padding-top: 5%;
         padding-bottom: 10%;
