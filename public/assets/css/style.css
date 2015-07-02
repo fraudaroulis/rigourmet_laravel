@@ -413,18 +413,13 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
     margin: 0 auto;
     text-align: center;
     color: #fff;
-    /*background: url("../img/backgrounds/1.jpg");*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .inner-bg {
     padding: 0;
     padding-top: 80px;
-    padding-bottom: 12em;
-    background-color: rgba(4, 209, 209, 0.2);
+    padding-bottom: 10%;
+    background-color: rgba(4, 209, 209, 0.2)
 }
 
 .top-content .text {
@@ -469,14 +464,17 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .hero {
     width: 100%;
-    height: 47em;
-    position: absolute;
+    height: 100%;
     padding:0;
     margin:0;
     left: 0;
     top: 0;
     z-index: -1000;
     overflow:hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .pretzel-video {
@@ -1685,7 +1683,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
     .inner-bg {
         padding-top: 80px;
-        padding-bottom: 10em;
     }
 
     .top-content h2 {

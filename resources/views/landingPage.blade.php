@@ -18,9 +18,14 @@
     <div id="home" class="parallax top-content" data-stellar-background-ratio="0.3">
         <div class="inner-bg">
             <div class="container">
+                <div class="hero">
+                    <video autoplay muted class="video-playing pretzel-video">
+                        <source src="assets/header_vid.mp4" type="video/mp4">
+                        <source src="assets/header_vid.webm" type="video/webm">
+                    </video>
+                </div>
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-
                         <img src=""/>
                         <h2>Rigourmet</h2>
                         <h3>be a professional, not just a cook</h3>
@@ -31,12 +36,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="hero">
-                <video autoplay muted class="video-playing pretzel-video">
-                    <source src="assets/header_vid.mp4" type="video/mp4">
-                    <source src="assets/header_vid.webm" type="video/webm">
-                </video>
             </div>
         </div>
     </div>
