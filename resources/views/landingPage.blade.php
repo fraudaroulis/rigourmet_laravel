@@ -32,7 +32,7 @@
                         <div class="description">
                         </div>
                         <div class="top-button">
-                            <a class="btn btn-top btn-lg" href="#features-section">Join Beta as a Cook</a>
+                            <a class="btn btn-top btn-lg" href="#join">Join Beta as a Cook</a>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
 
     @include('features')
 
-    @include('product')
+    {{--@include('product')--}}
 
     @include('subscription')
 
@@ -56,7 +56,7 @@
         <!-- footer -->
         <div id="footer" class="follow">
             <h3>Follow Us</h3>
-            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse suscipit tellus vitae tellus porta rutrum. Aliquam imperdiet nulla id scelerisque auctor.</p>
+            <p>find and connect with us in your favourite social media networks</p>
             <div class="follow-us">
                 <a href="#" class="social-icon">
                     <div>

@@ -9,9 +9,7 @@
                     <h3>More Features</h3>
 
                     <img src="assets/img/3.png" alt="">
-
                 </div>
-
             </div>
         </div>
     </div>

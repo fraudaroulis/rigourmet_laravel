@@ -10,54 +10,54 @@
                 <div class="icon">
                     <img src="assets/img/icons/4.png" />
                 </div>
-                <h4>Lorem Ipsum</h4>
+                <h4>Customise your Cook CV</h4>
                 <p>
-                    Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.
+                    Upon joining our service you get to have a completely personalised CV, specially designed for your needs as a cook.
                 </p>
             </div>
             <div class="col-sm-4 features-box2">
                 <div class="icon">
                     <img src="assets/img/icons/1.png" />
                 </div>
-                <h4>Lorem Ipsum</h4>
+                <h4>Share your work</h4>
                 <p>
-                    Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.
+                    Show your work experience, share videos and pictures of your own creations and recipes, let everybody know what you're worth.
                 </p>
             </div>
             <div class="col-sm-4 features-box3">
                 <div class="icon">
                     <img src="assets/img/icons/7.png" />
                 </div>
-                <h4>Lorem Ipsum</h4>
+                <h4>Create your own menus</h4>
                 <p>
-                    Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.
+                    Now it is you who decides what you will serve. Customise your menus and impress your customers with unique courses .
                 </p>
             </div>
             <div class="col-sm-4 features-box4">
                 <div class="icon">
                     <img src="assets/img/icons/3.png" />
                 </div>
-                <h4>Lorem Ipsum</h4>
+                <h4>Get to know your customers</h4>
                 <p>
-                    Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.
+                    Socialise with foodies, get to know their likes and needs, empower your profile with feedback from your customers.
                 </p>
             </div>
             <div class="col-sm-4 features-box5">
                 <div class="icon">
                     <img src="assets/img/icons/2.png" />
                 </div>
-                <h4>Lorem Ipsum</h4>
+                <h4>Throw unique dinner parties</h4>
                 <p>
-                    Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.
+                    Create your own dinner parties, invite foodies or get invited as a private cook, live the Rigourmet experience.
                 </p>
             </div>
             <div class="col-sm-4 features-box6">
                 <div class="icon">
                     <img src="assets/img/icons/8.png" />
                 </div>
-                <h4>Lorem Ipsum</h4>
+                <h4>Work as a freelancer</h4>
                 <p>
-                    Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.
+                    Now is your time to shine as a freelancer. You have the chance to work for yourself and manage your style and working schedule.
                 </p>
             </div>
         </div>

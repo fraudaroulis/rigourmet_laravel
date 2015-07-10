@@ -2,9 +2,9 @@
 <div id="join" class="subscribe-container">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 subscribe">
-                <h3>Be a Part of Our Story</h3>
-                <p>join our community and be the first to learn the news</p>
+            <div class="col-sm-10 col-sm-offset-1 subscribe">
+                <h3>Join Us</h3>
+                <p>wear your toque blanche and take a seat</p>
                 <form class="form-inline" action="assets/subscribe.php" method="post">
                     <input type="text" name="email" placeholder="Enter your email">
                     <button type="submit" class="btn btn-subscribe">Subscribe</button>
