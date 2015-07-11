@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-sm-4 features-box1">
                 <div class="icon">
-                    <img src="assets/img/icons/4.png" />
+                    <img src="assets/img/icons/customize_your_cv.png" />
                 </div>
                 <h4>Customise your Cook CV</h4>
                 <p>
@@ -17,7 +17,7 @@
             </div>
             <div class="col-sm-4 features-box2">
                 <div class="icon">
-                    <img src="assets/img/icons/1.png" />
+                    <img src="assets/img/icons/share_your_work.png" />
                 </div>
                 <h4>Share your work</h4>
                 <p>
@@ -26,7 +26,7 @@
             </div>
             <div class="col-sm-4 features-box3">
                 <div class="icon">
-                    <img src="assets/img/icons/7.png" />
+                    <img src="assets/img/icons/create_your_own_menus.png" />
                 </div>
                 <h4>Create your own menus</h4>
                 <p>
@@ -35,25 +35,25 @@
             </div>
             <div class="col-sm-4 features-box4">
                 <div class="icon">
-                    <img src="assets/img/icons/3.png" />
-                </div>
-                <h4>Get to know your customers</h4>
-                <p>
-                    Socialise with foodies, get to know their likes and needs, empower your profile with feedback from your customers.
-                </p>
-            </div>
-            <div class="col-sm-4 features-box5">
-                <div class="icon">
-                    <img src="assets/img/icons/2.png" />
+                    <img src="assets/img/icons/throw_unique_dinner_parties.png" />
                 </div>
                 <h4>Throw unique dinner parties</h4>
                 <p>
                     Create your own dinner parties, invite foodies or get invited as a private cook, live the Rigourmet experience.
                 </p>
             </div>
+            <div class="col-sm-4 features-box5">
+                <div class="icon">
+                    <img src="assets/img/icons/get_to_know_your_customers.png" />
+                </div>
+                <h4>Get to know your customers</h4>
+                <p>
+                    Socialise with foodies, get to know their likes and needs, empower your profile with feedback from your customers.
+                </p>
+            </div>
             <div class="col-sm-4 features-box6">
                 <div class="icon">
-                    <img src="assets/img/icons/8.png" />
+                    <img src="assets/img/icons/work_as_a_freelancer.png" />
                 </div>
                 <h4>Work as a freelancer</h4>
                 <p>

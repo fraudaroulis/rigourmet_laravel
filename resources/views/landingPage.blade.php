@@ -58,12 +58,12 @@
             <h3>Follow Us</h3>
             <p>find and connect with us in your favourite social media networks</p>
             <div class="follow-us">
-                <a href="#" class="social-icon">
+                <a target="_blank" href="https://www.facebook.com/rigourmet" class="social-icon">
                     <div>
                         <i class="fa fa-facebook"></i>
                     </div>
                 </a>
-                <a href="#" class="social-icon">
+                <a target="_blank" href="https://twitter.com/rigourmet" class="social-icon">
                     <div>
                         <i class="fa fa-twitter"></i>
                     </div>
