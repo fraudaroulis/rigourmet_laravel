@@ -30,6 +30,8 @@ class PagesController extends Controller
 		$user->getEmail();
 		$user->getAvatar();
 
-        return view('landingPage')->with('user', $user);
+		$test = 'test';
+
+        return view('landingPage', compact('test'))->with('user', $user);
     }
 }
