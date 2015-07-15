@@ -19,3 +19,5 @@ Route::get('/', [
 Route::get('facebook', 'AccountController@redirectToProvider');
 // Get back to redirect url
 Route::get('account/facebook', 'AccountController@handleProviderCallback');
+
+Route::get('login/{provider?}', 'Auth\AuthController@login');
