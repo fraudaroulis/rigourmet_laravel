@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+use Redirect;
 use Socialize;
 
 class AccountController extends Controller
@@ -17,5 +18,7 @@ class AccountController extends Controller
 
     public function handleProviderCallback() {
       $user = Socialize::with('facebook')->user();
+
+      print_r($user);die;
     }
 }
