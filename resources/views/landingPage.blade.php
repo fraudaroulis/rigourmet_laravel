@@ -68,19 +68,19 @@
                     </div>
                 </a>
 
-<!--                 <a href="#" class="social-icon">
+                <a target="_blank" href="https://www.linkedin.com/company/9341912?trk=prof-exp-company-name" class="social-icon">
                     <div>
                         <i class="fa fa-linkedin"></i>
                     </div>
                 </a>
 
-                <a href="#" class="social-icon">
+                <a target="_blank" href="https://instagram.com/rigourmet" class="social-icon">
                     <div>
-                        <i class="fa fa-pinterest"></i>
+                        <i class="fa fa-instagram"></i>
                     </div>
                 </a>
 
-                <a href="#" class="social-icon">
+<!--                 <a href="#" class="social-icon">
                     <div>
                         <i class="fa fa-google-plus"></i>
                     </div>
