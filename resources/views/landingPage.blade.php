@@ -26,9 +26,8 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-                        <img src=""/>
                         <h2>Rigourmet</h2>
-                        <h3>be a professional, not just a cook</h3>
+                        <h3></h3>
                         <div class="description">
                         </div>
                         <div class="top-button">

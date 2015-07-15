@@ -9,7 +9,7 @@
 
     <title>
         @section('title')
-            Rigourmet | be a professional, not just a cook
+            Rigourmet
         @show
     </title>
     @section('meta_keywords')
@@ -21,6 +21,9 @@
     @section('meta_description')
         <meta name="description" content="Το Rigourmet είναι μια πλατφόρμα κοινωνικής δικτύωσης που ενώνει επαγγελματίες μάγειρες με λάτρεις του φαγητού για μια μοναδική εμπειρία." />
     @show
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
     <!-- Mobile Specific Metas
     ================================================== -->
