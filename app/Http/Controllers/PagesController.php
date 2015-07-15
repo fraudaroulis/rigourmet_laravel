@@ -14,6 +14,22 @@ class PagesController extends Controller
      */
     public function getLandingPage()
     {
-        return view('landingPage');
+		$user = Socialize::with('facebook')->user();
+
+		// OAuth Two Providers
+		$token = $user->token;
+
+		// OAuth One Providers
+		$token = $user->token;
+		$tokenSecret = $user->tokenSecret;
+
+		// All Providers
+		$user->getId();
+		$user->getNickname();
+		$user->getName();
+		$user->getEmail();
+		$user->getAvatar();
+
+        return view('landingPage')->with('user', $user);
     }
 }
