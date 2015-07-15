@@ -1,4 +1,5 @@
-<?php namespace App;
+<?php 
+namespace App\Http\Controllers\Auth;
 
 // AuthenticateUser.php 
 use Illuminate\Contracts\Auth\Guard; 
