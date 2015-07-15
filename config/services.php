@@ -38,7 +38,7 @@ return [
     'facebook' => [
         'client_id' => '549086841899362',
         'client_secret' => 'ed699329dd6cb6144a8646d2c77b5ca1',
-        'redirect' => 'http://www.rigourmet.com/facebook',
+        'redirect' => 'http://www.rigourmet.com/',
     ],
 
 ];
