@@ -19,7 +19,7 @@
         <div class="inner-bg">
             <div class="container">
                 <div class="hero">
-                    <video poster="header_snapshot.png" autoplay muted class="video-playing pretzel-video">
+                    <video poster="assets/header_snapshot.png" autoplay muted class="video-playing pretzel-video">
                         <source src="assets/header_vid.mp4" type="video/mp4">
                         <source src="assets/header_vid.webm" type="video/webm">
                     </video>
