@@ -69,7 +69,7 @@
                     </div>
                 </a>
 
-                <a href="#" class="social-icon">
+<!--                 <a href="#" class="social-icon">
                     <div>
                         <i class="fa fa-linkedin"></i>
                     </div>
@@ -85,7 +85,7 @@
                     <div>
                         <i class="fa fa-google-plus"></i>
                     </div>
-                </a>
+                </a> -->
             </div>
         </div>
 
