@@ -103,7 +103,6 @@
     @section('footer')
 <div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="false"></div>
 
-{{ $user}} {{$test}}
 
         <!-- footer 2 -->
         <div id="footer2">
