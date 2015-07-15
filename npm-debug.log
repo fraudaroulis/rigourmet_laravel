@@ -1,0 +1,124 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'curl' ]
+2 info using npm@2.10.1
+3 info using node@v0.10.25
+4 verbose node symlink /usr/bin/node
+5 verbose install initial load of /home/delback/Documents/Laravel/rigourmet/package.json
+6 verbose installManyTop reading scoped package data from /home/delback/Documents/Laravel/rigourmet/node_modules/gulp/package.json
+7 verbose installManyTop reading scoped package data from /home/delback/Documents/Laravel/rigourmet/node_modules/gulp-bower/package.json
+8 verbose installManyTop reading scoped package data from /home/delback/Documents/Laravel/rigourmet/node_modules/gulp-notify/package.json
+9 verbose installManyTop reading scoped package data from /home/delback/Documents/Laravel/rigourmet/node_modules/gulp-ruby-sass/package.json
+10 verbose installManyTop reading scoped package data from /home/delback/Documents/Laravel/rigourmet/node_modules/laravel-elixir/package.json
+11 info package.json gulp-notify@2.2.0 No license field.
+12 verbose readDependencies loading dependencies from /home/delback/Documents/Laravel/rigourmet/package.json
+13 silly cache add args [ 'curl', null ]
+14 verbose cache add spec curl
+15 silly cache add parsed spec { raw: 'curl',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'curl',
+15 silly cache add   rawSpec: '',
+15 silly cache add   spec: '*',
+15 silly cache add   type: 'range' }
+16 silly addNamed curl@*
+17 verbose addNamed "*" is a valid semver range for curl
+18 silly addNameRange { name: 'curl', range: '*', hasData: false }
+19 silly mapToRegistry name curl
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/curl
+23 verbose addNameRange registry:https://registry.npmjs.org/curl not in flight; fetching
+24 verbose request uri https://registry.npmjs.org/curl
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 00:22:24
+27 verbose request id 8a317be85dd9f9cf
+28 http request GET https://registry.npmjs.org/curl
+29 http 200 https://registry.npmjs.org/curl
+30 silly get cb [ 200,
+30 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly get     etag: '"6EAFRVH83SWL1DIL22A5Y6HKF"',
+30 silly get     'content-type': 'application/json',
+30 silly get     'cache-control': 'max-age=60',
+30 silly get     'content-length': '3986',
+30 silly get     'accept-ranges': 'bytes',
+30 silly get     date: 'Wed, 15 Jul 2015 21:22:24 GMT',
+30 silly get     via: '1.1 varnish',
+30 silly get     age: '0',
+30 silly get     connection: 'keep-alive',
+30 silly get     'x-served-by': 'cache-fra1240-FRA',
+30 silly get     'x-cache': 'MISS',
+30 silly get     'x-cache-hits': '0',
+30 silly get     'x-timer': 'S1436995344.259966,VS0,VE719',
+30 silly get     vary: 'Accept' } ]
+31 verbose get saving curl to /home/delback/.npm/registry.npmjs.org/curl/.cache.json
+32 silly addNameRange number 2 { name: 'curl', range: '*', hasData: true }
+33 silly addNameRange versions [ 'curl', [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4' ] ]
+34 silly addNamed curl@0.1.4
+35 verbose addNamed "0.1.4" is a plain semver version for curl
+36 silly mapToRegistry name curl
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/curl
+40 verbose addRemoteTarball https://registry.npmjs.org/curl/-/curl-0.1.4.tgz not in flight; adding
+41 verbose addRemoteTarball [ 'https://registry.npmjs.org/curl/-/curl-0.1.4.tgz',
+41 verbose addRemoteTarball   'c4f5fbe38b3039a6b555bcc2f884a3b033427e23' ]
+42 info retry fetch attempt 1 at 00:22:25
+43 info attempt registry request try #1 at 00:22:25
+44 http fetch GET https://registry.npmjs.org/curl/-/curl-0.1.4.tgz
+45 http fetch 200 https://registry.npmjs.org/curl/-/curl-0.1.4.tgz
+46 silly fetchAndShaCheck shasum c4f5fbe38b3039a6b555bcc2f884a3b033427e23
+47 verbose addTmpTarball /tmp/npm-10656-286e5e98/registry.npmjs.org/curl/-/curl-0.1.4.tgz not in flight; adding
+48 verbose addTmpTarball already have metadata; skipping unpack for curl@0.1.4
+49 silly cache afterAdd curl@0.1.4
+50 verbose afterAdd /home/delback/.npm/curl/0.1.4/package/package.json not in flight; writing
+51 verbose afterAdd /home/delback/.npm/curl/0.1.4/package/package.json written
+52 silly install resolved [ { name: 'curl',
+52 silly install resolved     version: '0.1.4',
+52 silly install resolved     description: 'client url library, high level request functions',
+52 silly install resolved     tags: [ 'request', 'util', 'http' ],
+52 silly install resolved     authors: 'Ian Jørgensen <jorgensen.ian@gmail.com>',
+52 silly install resolved     dependencies: { request: '>=0.1.0', router: '>=0.3.0' },
+52 silly install resolved     _npmJsonOpts:
+52 silly install resolved      { file: '/Users/ian/.npm/curl/0.1.4/package/package.json',
+52 silly install resolved        wscript: false,
+52 silly install resolved        contributors: false,
+52 silly install resolved        serverjs: false },
+52 silly install resolved     _id: 'curl@0.1.4',
+52 silly install resolved     devDependencies: {},
+52 silly install resolved     engines: { node: '*' },
+52 silly install resolved     _engineSupported: true,
+52 silly install resolved     _npmVersion: '1.0.15',
+52 silly install resolved     _nodeVersion: 'v0.4.9',
+52 silly install resolved     _defaultsLoaded: true,
+52 silly install resolved     dist:
+52 silly install resolved      { shasum: 'c4f5fbe38b3039a6b555bcc2f884a3b033427e23',
+52 silly install resolved        tarball: 'http://registry.npmjs.org/curl/-/curl-0.1.4.tgz' },
+52 silly install resolved     scripts: {},
+52 silly install resolved     directories: {},
+52 silly install resolved     _shasum: 'c4f5fbe38b3039a6b555bcc2f884a3b033427e23',
+52 silly install resolved     _resolved: 'https://registry.npmjs.org/curl/-/curl-0.1.4.tgz',
+52 silly install resolved     _from: 'curl@*' } ]
+53 info install curl@0.1.4 into /home/delback/Documents/Laravel/rigourmet
+54 info installOne curl@0.1.4
+55 verbose installOne of curl to /home/delback/Documents/Laravel/rigourmet not in flight; installing
+56 warn locking Error: EACCES, open '/home/delback/.npm/_locks/curl-0f535477b00ab444.lock'
+56 warn locking  /home/delback/.npm/_locks/curl-0f535477b00ab444.lock failed { [Error: EACCES, open '/home/delback/.npm/_locks/curl-0f535477b00ab444.lock']
+56 warn locking   errno: 3,
+56 warn locking   code: 'EACCES',
+56 warn locking   path: '/home/delback/.npm/_locks/curl-0f535477b00ab444.lock' }
+57 verbose stack Error: Attempt to unlock /home/delback/Documents/Laravel/rigourmet/node_modules/curl, which hasn't been locked
+57 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+57 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1017:5)
+57 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1021:20
+57 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+57 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+57 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+57 verbose stack     at Object.oncomplete (fs.js:107:15)
+58 verbose cwd /home/delback/Documents/Laravel/rigourmet
+59 error Linux 3.13.0-37-generic
+60 error argv "node" "/usr/local/bin/npm" "install" "curl"
+61 error node v0.10.25
+62 error npm  v2.10.1
+63 error Attempt to unlock /home/delback/Documents/Laravel/rigourmet/node_modules/curl, which hasn't been locked
+64 error If you need help, you may report this error at:
+64 error     <https://github.com/npm/npm/issues>
+65 verbose exit [ 1, true ]

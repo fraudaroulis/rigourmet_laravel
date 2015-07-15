@@ -65,6 +65,16 @@
 </head>
 
 <body data-spy="scroll" data-offset="80">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/el_GR/sdk.js#xfbml=1&version=v2.4&appId=549086841899362";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <div class="navbar navbar-default navbar-fixed-top menu-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -91,6 +101,8 @@
     @yield('content')
 
     @section('footer')
+<div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="false"></div>
+
         <!-- footer 2 -->
         <div id="footer2">
             <div class="container">

@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -15,3 +14,8 @@ Route::get('/', [
     'as'    =>  'landingPage',
     'uses'  =>  'PagesController@getLandingPage'
 ]);
+
+// Redirect to facebook to authenticate
+Route::get('facebook', 'AccountController@redirectToProvider');
+// Get back to redirect url
+Route::get('account/facebook', 'AccountController@handleProviderCallback');
